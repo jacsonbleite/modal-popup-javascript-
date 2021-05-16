@@ -1,7 +1,7 @@
-Projeto para fim didádico, mas que pode ser, facilmente, implantado em projetos, fazendo alguns ajustes
+Projeto para fim didádico. Pode ser, facilmente, implantado em projetos reais fazendo.
 
-Desenvolvido em HTML, CSS e Javascritp,
-para armazenamento do dados foi utilizado localStorage
+Desenvolvido em HTML, CSS e Javascritp.
+Para armazenamento dos dados foi utilizado localStorage
 
 Autor: Jacson Leite jacsonbleite@gmail.com
 
