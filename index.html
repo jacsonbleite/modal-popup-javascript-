@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de popup</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+
+<body>
+    <div class="mouse-over-bg">
+        <div class="mouse-over aling-items">div .mouse-over</div>
+    </div>
+    <div class="text aling-items">
+        <p>O <strong>popup</strong>, para fins didádicos, será ativado sempre que o usuário passar o mouse na
+            <strong><i>div mouse-over</i></strong>.<br>
+            Nesse caso, o popup só não voltará a aparecer quando o usário inserir um <i>e-mail</i> válido que será
+            armazenado em <i>locaStorage</i> (armazenamento local).<br></p>            
+            <button class="clear-LS"></button>
+    </div>
+    
+    <div class="popup-bg" style="display: none">
+        <div class="popup">
+            <div class="popup-close"><button class="close-popup">X</button></div>
+            <div class="popup-content">
+                <h2>Titulo do popup pedindo o email do usuário</h2>
+                <form>
+                    <input type="email" placeholder="Insira  seu melhor e-mail" name="mail" id="email" required>
+                    <button class="register" type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="msg-register-bg">
+        <div class="msg-register aling-items">
+            <div class="btn-close"> <button class="close-msg-register">X</button></div>
+            <h2>Aqui deve ter uma mensagem informando ao usuário que o cadastro foi realizado com sucesso!</h2>
+        </div>
+    </div>
+
+
+
+    <!-- <ul id="test">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+      
+      <script>
+        var test = document.getElementById("test");
+      
+      
+        // this handler will be executed only once when the cursor moves over the unordered list
+        test.addEventListener("mouseenter", function( event ) {
+          // highlight the mouseenter target
+          event.target.style.color = "purple";
+      
+          // reset the color after a short delay
+          setTimeout(function() {
+            event.target.style.color = "";
+          }, 500);
+        }, false);
+      
+      
+        // this handler will be executed every time the cursor is moved over a different list item
+        test.addEventListener("mouseover", function( event ) {
+          // highlight the mouseover target
+          event.target.style.color = "orange";
+      
+          // reset the color after a short delay
+          setTimeout(function() {
+            event.target.style.color = "";
+          }, 500);
+        }, false);
+      </script>
+       -->
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
